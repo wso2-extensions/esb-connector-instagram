@@ -17,10 +17,8 @@ Tested Platform:
  
 STEPS: 
  
- 
  1. Download the ESB 4.9.0.zip
   
- 
  2. Create a Instagram account and derive the access token: 
         i)  To create an Instagram account, please register using the Instagram app on iPhone or Android. 
         ii) Derive the access token by following the instructions at "http://instagram.com/developer/authentication/". 
@@ -51,8 +49,8 @@ STEPS:
 -------------------------------------------------
 credential of test account
 sandbox:	login		: wso2esbconnectorins	
-		    password	: connector12345
+		password	: connector12345
 
-email:	    login		: wso2instagram@gmail.com
-		    password	: wso2instagram123456
+email:	        login		: wso2instagram@gmail.com
+		password	: wso2instagram123456
 -------------------------------------------------
