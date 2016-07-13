@@ -67,13 +67,6 @@
                         <userId>{$ctx:userId}</userId>
                     </instagram.getUserRelationship>
                 </case>
-                <case regex="urn:getSelfFeed">
-                    <instagram.getSelfFeed>
-                        <count>{$ctx:count}</count>
-                        <minId>{$ctx:minId}</minId>
-                        <maxId>{$ctx:maxId}</maxId>
-                    </instagram.getSelfFeed>
-                </case>
                 <case regex="urn:getSelfMediaLiked">
                     <instagram.getSelfMediaLiked>
                         <count>{$ctx:count}</count>
@@ -126,10 +119,6 @@
                     <instagram.getMediaInfo>
                         <mediaId>{$ctx:mediaId}</mediaId>
                     </instagram.getMediaInfo>
-                </case>
-                <case regex="urn:getMediaPopular">
-                    <instagram.getMediaPopular>
-                    </instagram.getMediaPopular>
                 </case>
                 <case regex="urn:getMediaSearch">
                     <instagram.getMediaSearch>

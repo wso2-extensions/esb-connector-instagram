@@ -20,7 +20,6 @@
     <parameter name="tagName" description="Tag Name"/>
     <parameter name="maxId" description="Return media earlier than this maxId.s."/>
     <parameter name="minId" description="Return media later than this minId."/>
-
     <sequence>
         <property name="uri.var.tagName" expression="$func:tagName"/>
         <property name="uri.var.minId" expression="$func:minId"/>
@@ -29,13 +28,13 @@
         <filter xpath="(not(get-property('uri.var.minId') = '' or (not(string(get-property('uri.var.minId'))))))">
             <then>
                 <property name="uri.var.apiParameters"
-                          expression="fn:concat(get-property('uri.var.apiParameters'),'&amp;min_id=',get-property('uri.var.minId'))"/>
+                          expression="fn:concat(get-property('uri.var.apiParameters'),'&amp;min_tag_id=',get-property('uri.var.minId'))"/>
             </then>
         </filter>
         <filter xpath="(not(get-property('uri.var.maxId') = '' or (not(string(get-property('uri.var.maxId'))))))">
             <then>
                 <property name="uri.var.apiParameters"
-                          expression="fn:concat(get-property('uri.var.apiParameters'),'&amp;max_id=',get-property('uri.var.maxId'))"/>
+                          expression="fn:concat(get-property('uri.var.apiParameters'),'&amp;max_tag_id=',get-property('uri.var.maxId'))"/>
             </then>
         </filter>
         <call>

@@ -22,10 +22,6 @@
 			<file>getUserInfo.xml</file>
 			<description>Get basic information about a user.</description>
 		</component>
-		<component name="getSelfFeed">
-			<file>getSelfFeed.xml</file>
-			<description>See the authenticated user's feed.</description>
-		</component>
 		<component name="getUserMediaRecent">
 			<file>getUserMediaRecent.xml</file>
 			<description>Get the most recent media published by a user.
