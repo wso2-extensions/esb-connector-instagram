@@ -1,0 +1,21 @@
+{
+    "name": "Instagram",
+    "owner": "WSO2",
+    "category": "Social Media",
+    "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Instagram+Connector",
+    "description": "The Instagramconnector allows you to access the REST API version 1.0 through the WSO2 ESB. Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, apply digital filters to them, and share them on a variety of social networking services, such as Facebook, Twitter, Tumblr and Flickr.",
+    "status": "Unsupported",
+    "labels": [
+        "connector"
+    ],
+    "releases": [
+        {
+            "tagName": "v1.0.1",
+            "products": [
+                "ESB 5.0.0",
+                "ESB 4.9.0"
+            ],
+            "isHidden": false
+        }
+    ]
+}
